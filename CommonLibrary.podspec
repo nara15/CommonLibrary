@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CommonLibrary'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'This library is intended for a simple test of using private Cocoapods repository. Please refer to this email for more recommendations.'
 
 # This description is used to generate tags and improve search results.
