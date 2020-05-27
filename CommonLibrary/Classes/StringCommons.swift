@@ -21,4 +21,8 @@ public extension String {
 
         return String(data: data, encoding: .utf8)
     }
+    
+    var charactersArray: [Character] {
+        return Array(self)
+    }
 }
