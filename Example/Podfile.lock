@@ -1,0 +1,27 @@
+PODS:
+  - CommonLibrary (0.1.0)
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - CommonLibrary (from `../`)
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  CommonLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CommonLibrary: b2f6d3f020ba1b796fe6103d81807b7d71dc4a13
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 374019c077bac15c042d487d37ccc241e5c8bde5
+
+COCOAPODS: 1.9.1
