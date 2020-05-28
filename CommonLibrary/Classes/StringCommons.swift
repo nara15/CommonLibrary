@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import MSAL
+import KeychainAccess
 
 public extension String {
     var base64Decoded: String? {
@@ -36,6 +38,6 @@ public extension String {
             return first + rest
         }
         let rest = String(source.dropFirst())
-        return first + rest
+        return first + rest 
     }
 }

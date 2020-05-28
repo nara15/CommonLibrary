@@ -1,8 +1,13 @@
+platform :ios, '10.0'
+
 use_frameworks!
 
 target 'CommonLibrary_Example' do
   pod 'CommonLibrary', :path => '../'
-
+  
+  pod 'KeychainAccess'
+  pod 'MSAL'
+  
   target 'CommonLibrary_Tests' do
     inherit! :search_paths
 
